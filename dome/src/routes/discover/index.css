@@ -1,0 +1,149 @@
+.nav{
+    width: 100%;
+    height: 2.5rem;
+    line-height:  2.5rem;
+    box-sizing: border-box;
+    padding: 0  2rem;
+    display: flex;
+    background:#3a3939;
+   }
+
+   .nav  a{
+     color:#ccc;
+     flex: 1;
+     text-align: center;
+     position: relative;
+   }
+   .nav a b{
+     position: absolute;
+     bottom: .4rem;
+     left: 4rem;
+     display: block;
+     width: 1.9rem;
+     height: .2rem;
+     border-radius: 5px;
+     background: #fff;
+   }
+
+   .action {
+    color:#fff;
+    flex: 1;
+    text-align: center;
+    position: relative;
+   }
+  .ant-carousel .slick-slide {
+    text-align: center;
+    height: 10rem;
+    line-height: 10rem;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+
+  .prant{
+      width: 100%;
+      height: 9.5rem;
+      z-index: 1000;
+  }
+   
+  .prant p{
+      width: 100%;
+      height: 5rem;
+      background:#3a3939
+  }
+
+  .banner{
+      width: 90%;
+      height: 9.5rem;
+      border-radius: 15px;
+      margin:0 auto;
+      overflow: hidden;
+      top:10px;
+      left: 5%;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .subNav {
+      width: 100%;
+      height: 5rem;
+      box-sizing: border-box;
+      padding: 10px 0;
+      display: flex;
+  }
+  .subNav li{
+    flex:1;
+  }
+  .subNav li div{
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+    padding: .5rem 0;
+    border-radius: 50%;
+    background:#3a3939;
+    text-align: center;
+  }
+  .subNav li p{
+    width: 100%;
+    text-align: center;
+  }
+
+  .subNav li div img{
+    display: block;
+    width:70%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .member{
+    width: 100%;
+    height: auto;
+    background: #3a3939;
+    padding-bottom: 2px;
+  }
+  .member h4{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;;
+  }
+  .member button{
+    display: block;
+    width: 7.5rem;
+    height: 2rem ;
+    margin: 10px auto;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background: #3a3939;
+    color:#fff;
+    text-align: center;
+  }
+  .subNav a{
+    flex:1;
+  }
+  .subNav a div{
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+    padding: .5rem 0;
+    border-radius: 50%;
+    background:#3a3939;
+    text-align: center;
+  }
+  .subNav a p{
+    width: 100%;
+    text-align: center;
+  }
+
+  .subNav a div img{
+    display: block;
+    width:70%;
+    height: auto;
+    margin: 0 auto;
+    
+  }
